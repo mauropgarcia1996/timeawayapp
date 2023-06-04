@@ -21,7 +21,7 @@ const Router = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={session ? 'Home' : 'SignIn'}>
+      <Stack.Navigator initialRouteName={session ? 'Home' : 'Login'}>
         {session ? (
           <>
             <Stack.Screen

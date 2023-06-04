@@ -18,7 +18,7 @@ const CustomInput: React.FC<MyTextInputProps> = props => {
 export default CustomInput;
 
 const styles = StyleSheet.create({
-  border: {borderRadius: 15},
+  border: {borderRadius: 10},
   input: {
     marginVertical: 5,
   },
